@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "target": "ES6",  
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "importHelpers": true,
+    "outDir": "build",
+    "declaration": true
+  },
+  "include": [
+    "lib"
+  ],
+  "exclude": ["node_modules"]
+}
